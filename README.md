@@ -9,10 +9,10 @@ Both services are built with Node.js using the Fastify framework and are contain
 The services are connected to PostgreSQL databases for persistent storage.
 
 ### Prerequisites
-Before setting up the services, ensure you have the following installed:
-Node.js (v18.8.0 or later) 
-Docker and Docker Compose
-PostgreSQL (for local development without Docker)
+Before setting up the services, ensure you have the following installed:</br>
+`Node.js (v18.8.0 or later)` </br>
+`Docker and Docker Compose`</br>
+`PostgreSQL (for local development without Docker)`</br>
 
 ### 1 Getting Started
 1. Clone the Repository
