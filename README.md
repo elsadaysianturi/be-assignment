@@ -39,26 +39,26 @@ After starting the containers, run the database migrations for each service:
 
 Once the services are running, you can access them at:
 
-   `User Service: http://localhost:3000   `
-   `Payment Service: http://localhost:3001   `
+   `User Service: http://localhost:3000   ` </br>
+   `Payment Service: http://localhost:3001   `</br>
 
 6. View API Documentation
 Both services have Swagger documentation available at:
 
-User Service Documentation: `http://localhost:3000/docs`
-Payment Service Documentation: `http://localhost:3001/docs`
+User Service Documentation: `http://localhost:3000/docs`</br>
+Payment Service Documentation: `http://localhost:3001/docs`</br>
 
 ### 2. Development
 Running Locally without Docker
 1. Install dependencies:
-`cd user-service`
-`npm install`
-`cd ../payment-service`
-`npm install`
+`cd user-service`</br>
+`npm install`</br>
+`cd ../payment-service`</br>
+`npm install`</br>
 2. Set up PostgreSQL databases locally and adjust the DATABASE_URL in the `.env` files accordingly.
 3. Run the services:
 For user-service:
-`npm start`
+`npm start`</br>
 For payment-service:
-`npm start`
+`npm start`</br>
 
